@@ -11,12 +11,6 @@
 				<key>$reference</key>
 				<string>$object-1</string>
 			</dict>
-			<key>LibraryCategory</key>
-			<string>User</string>
-			<key>LibraryDescription</key>
-			<string>This patch compares two strings and returns the result as an index: "0" if the strings are equal, "1" if the first string precedes the second one, "2" otherwise.
-
-Note that the comparison is case-insensitive.</string>
 		</dict>
 		<key>$object-1</key>
 		<dict>
@@ -25,46 +19,48 @@ Note that the comparison is case-insensitive.</string>
 			<key>FMDocument.imageStore</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-40</string>
+				<string>$object-37</string>
 			</dict>
 			<key>FMNode.forceAllowsSubnodes</key>
 			<true/>
 			<key>FMNode.inputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-31</string>
+				<string>$object-28</string>
 			</dict>
 			<key>FMNode.inputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-35</string>
+				<string>$object-32</string>
 			</dict>
 			<key>FMNode.inspectorPanel</key>
 			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>FMRNode</string>
 			<key>FMNode.outputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-33</string>
+				<string>$object-30</string>
 			</dict>
 			<key>FMNode.outputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-36</string>
+				<string>$object-33</string>
 			</dict>
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-38</string>
+				<string>$object-35</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-39</string>
+				<string>$object-36</string>
 			</dict>
 			<key>FMNode.portsByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-37</string>
+				<string>$object-34</string>
 			</dict>
 			<key>FMNode.position.x</key>
 			<real>0.0</real>
@@ -166,12 +162,12 @@ Note that the comparison is case-insensitive.</string>
 			<key>Form.errorOutput</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-21</string>
+				<string>$object-20</string>
 			</dict>
 			<key>Form.resultOutput</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-23</string>
+				<string>$object-21</string>
 			</dict>
 		</dict>
 		<key>$object-15</key>
@@ -214,12 +210,12 @@ Note that the comparison is case-insensitive.</string>
 			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-19</string>
+				<string>$object-16</string>
 			</dict>
 			<key>FMPatchPort.staticValue</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-20</string>
+				<string>$object-19</string>
 			</dict>
 			<key>FMPort.connectionRelationship</key>
 			<integer>2</integer>
@@ -229,16 +225,20 @@ Note that the comparison is case-insensitive.</string>
 		<key>$object-19</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.storageType</key>
+			<integer>7</integer>
+			<key>PMRPrimitive.stringValue</key>
+			<string>l</string>
 		</dict>
 		<key>$object-2</key>
 		<dict>
 			<key>$class</key>
 			<string>FMGroup</string>
 			<key>FMGroup.canvasCenter.x</key>
-			<real>0.0</real>
+			<real>562.99993896484375</real>
 			<key>FMGroup.canvasCenter.y</key>
-			<real>0.0</real>
+			<real>246.49998474121094</real>
 			<key>FMGroup.node</key>
 			<dict>
 				<key>$reference</key>
@@ -254,22 +254,27 @@ Note that the comparison is case-insensitive.</string>
 			<key>FMGroup.symbolicInputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-29</string>
+				<string>$object-26</string>
 			</dict>
 			<key>FMGroup.symbolicOutputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-30</string>
+				<string>$object-27</string>
 			</dict>
 		</dict>
 		<key>$object-20</key>
 		<dict>
 			<key>$class</key>
-			<string>PMRPrimitive</string>
-			<key>PMRPrimitive.storageType</key>
-			<integer>7</integer>
-			<key>PMRPrimitive.stringValue</key>
-			<string>l</string>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-16</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
 		</dict>
 		<key>$object-21</key>
 		<dict>
@@ -278,7 +283,7 @@ Note that the comparison is case-insensitive.</string>
 			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-22</string>
+				<string>$object-16</string>
 			</dict>
 			<key>FMPort.connectionRelationship</key>
 			<integer>1</integer>
@@ -289,42 +294,18 @@ Note that the comparison is case-insensitive.</string>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-23</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPatchPort</string>
-			<key>FMPatchPort.connections</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-24</string>
-			</dict>
-			<key>FMPort.connectionRelationship</key>
-			<integer>1</integer>
-			<key>FMPort.orientation</key>
-			<integer>2</integer>
-		</dict>
-		<key>$object-24</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-25</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
 			<key>NS.object.0</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-26</string>
+				<string>$object-23</string>
 			</dict>
 			<key>NS.object.1</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-27</string>
+				<string>$object-24</string>
 			</dict>
 		</dict>
-		<key>$object-26</key>
+		<key>$object-23</key>
 		<dict>
 			<key>$class</key>
 			<string>FMStringParameter</string>
@@ -336,7 +317,7 @@ Note that the comparison is case-insensitive.</string>
 			<key>FMStringParameter.value</key>
 			<string>FirstString, SecondString</string>
 		</dict>
-		<key>$object-27</key>
+		<key>$object-24</key>
 		<dict>
 			<key>$class</key>
 			<string>FMStringParameter</string>
@@ -353,17 +334,44 @@ else
 return "1";
 }</string>
 		</dict>
-		<key>$object-28</key>
+		<key>$object-25</key>
 		<dict>
 			<key>Form.inputVariablesParameter</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-26</string>
+				<string>$object-23</string>
 			</dict>
 			<key>Form.javascriptExpressionParameter</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-27</string>
+				<string>$object-24</string>
+			</dict>
+		</dict>
+		<key>$object-26</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-27</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-28</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-1</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-29</string>
 			</dict>
 		</dict>
 		<key>$object-29</key>
@@ -381,33 +389,6 @@ return "1";
 		<key>$object-30</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-31</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPortGroupCollection</string>
-			<key>FMPortGroupCollection.node</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-1</string>
-			</dict>
-			<key>FMPortGroupCollection.orientation</key>
-			<integer>1</integer>
-			<key>FMPortGroupCollection.portGroupKeys</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-32</string>
-			</dict>
-		</dict>
-		<key>$object-32</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-33</key>
-		<dict>
-			<key>$class</key>
 			<string>FMPortGroupCollection</string>
 			<key>FMPortGroupCollection.node</key>
 			<dict>
@@ -419,26 +400,38 @@ return "1";
 			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-34</string>
+				<string>$object-31</string>
 			</dict>
 		</dict>
-		<key>$object-34</key>
+		<key>$object-31</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 		</dict>
-		<key>$object-35</key>
+		<key>$object-32</key>
 		<dict/>
+		<key>$object-33</key>
+		<dict/>
+		<key>$object-34</key>
+		<dict/>
+		<key>$object-35</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
 		<key>$object-36</key>
 		<dict/>
 		<key>$object-37</key>
-		<dict/>
-		<key>$object-38</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<string>FMImageStore</string>
+			<key>FMImageStore.imageEntries</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-38</string>
+			</dict>
 		</dict>
-		<key>$object-39</key>
+		<key>$object-38</key>
 		<dict/>
 		<key>$object-4</key>
 		<dict>
@@ -473,12 +466,12 @@ return "1";
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-25</string>
+				<string>$object-22</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-28</string>
+				<string>$object-25</string>
 			</dict>
 			<key>FMNode.parentGroup</key>
 			<dict>
@@ -493,24 +486,12 @@ return "1";
 				<string>$object-14</string>
 			</dict>
 			<key>FMNode.position.x</key>
-			<real>416.99993896484375</real>
+			<real>504.99993896484375</real>
 			<key>FMNode.position.y</key>
-			<real>1396.4998779296875</real>
+			<real>357.9998779296875</real>
 			<key>FMNode.selected</key>
 			<true/>
 		</dict>
-		<key>$object-40</key>
-		<dict>
-			<key>$class</key>
-			<string>FMImageStore</string>
-			<key>FMImageStore.imageEntries</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-41</string>
-			</dict>
-		</dict>
-		<key>$object-41</key>
-		<dict/>
 		<key>$object-5</key>
 		<dict>
 			<key>$class</key>

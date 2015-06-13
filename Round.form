@@ -11,10 +11,6 @@
 				<key>$reference</key>
 				<string>$object-1</string>
 			</dict>
-			<key>LibraryCategory</key>
-			<string>User</string>
-			<key>LibraryDescription</key>
-			<string></string>
 		</dict>
 		<key>$object-1</key>
 		<dict>
@@ -23,46 +19,48 @@
 			<key>FMDocument.imageStore</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-32</string>
+				<string>$object-31</string>
 			</dict>
 			<key>FMNode.forceAllowsSubnodes</key>
 			<true/>
 			<key>FMNode.inputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-23</string>
+				<string>$object-22</string>
 			</dict>
 			<key>FMNode.inputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-27</string>
+				<string>$object-26</string>
 			</dict>
 			<key>FMNode.inspectorPanel</key>
 			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>FMRNode</string>
 			<key>FMNode.outputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-25</string>
+				<string>$object-24</string>
 			</dict>
 			<key>FMNode.outputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-28</string>
+				<string>$object-27</string>
 			</dict>
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-30</string>
+				<string>$object-29</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-31</string>
+				<string>$object-30</string>
 			</dict>
 			<key>FMNode.portsByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-29</string>
+				<string>$object-28</string>
 			</dict>
 			<key>FMNode.position.x</key>
 			<real>0.0</real>
@@ -163,7 +161,7 @@
 			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-17</string>
+				<string>$object-15</string>
 			</dict>
 			<key>FMPort.connectionRelationship</key>
 			<integer>2</integer>
@@ -174,18 +172,13 @@
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-18</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
 			<key>NS.object.0</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-19</string>
+				<string>$object-18</string>
 			</dict>
 		</dict>
-		<key>$object-19</key>
+		<key>$object-18</key>
 		<dict>
 			<key>$class</key>
 			<string>FMStringParameter</string>
@@ -197,14 +190,22 @@
 			<key>FMStringParameter.value</key>
 			<string>floor($x+0.5)</string>
 		</dict>
+		<key>$object-19</key>
+		<dict>
+			<key>Form.mathExpressionParameter</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-18</string>
+			</dict>
+		</dict>
 		<key>$object-2</key>
 		<dict>
 			<key>$class</key>
 			<string>FMGroup</string>
 			<key>FMGroup.canvasCenter.x</key>
-			<real>0.0</real>
+			<real>591.99993896484375</real>
 			<key>FMGroup.canvasCenter.y</key>
-			<real>0.0</real>
+			<real>466.49996948242188</real>
 			<key>FMGroup.node</key>
 			<dict>
 				<key>$reference</key>
@@ -220,21 +221,18 @@
 			<key>FMGroup.symbolicInputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-21</string>
+				<string>$object-20</string>
 			</dict>
 			<key>FMGroup.symbolicOutputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-22</string>
+				<string>$object-21</string>
 			</dict>
 		</dict>
 		<key>$object-20</key>
 		<dict>
-			<key>Form.mathExpressionParameter</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-19</string>
-			</dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
 		</dict>
 		<key>$object-21</key>
 		<dict>
@@ -242,11 +240,6 @@
 			<string>NSOrderedSet</string>
 		</dict>
 		<key>$object-22</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-23</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPortGroupCollection</string>
@@ -260,15 +253,15 @@
 			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-24</string>
+				<string>$object-23</string>
 			</dict>
 		</dict>
-		<key>$object-24</key>
+		<key>$object-23</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 		</dict>
-		<key>$object-25</key>
+		<key>$object-24</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPortGroupCollection</string>
@@ -282,20 +275,25 @@
 			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-26</string>
+				<string>$object-25</string>
 			</dict>
 		</dict>
-		<key>$object-26</key>
+		<key>$object-25</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 		</dict>
+		<key>$object-26</key>
+		<dict/>
 		<key>$object-27</key>
 		<dict/>
 		<key>$object-28</key>
 		<dict/>
 		<key>$object-29</key>
-		<dict/>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
 		<key>$object-3</key>
 		<array>
 			<dict>
@@ -304,23 +302,18 @@
 			</dict>
 		</array>
 		<key>$object-30</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-31</key>
 		<dict/>
-		<key>$object-32</key>
+		<key>$object-31</key>
 		<dict>
 			<key>$class</key>
 			<string>FMImageStore</string>
 			<key>FMImageStore.imageEntries</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-33</string>
+				<string>$object-32</string>
 			</dict>
 		</dict>
-		<key>$object-33</key>
+		<key>$object-32</key>
 		<dict/>
 		<key>$object-4</key>
 		<dict>
@@ -355,12 +348,12 @@
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-18</string>
+				<string>$object-17</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-20</string>
+				<string>$object-19</string>
 			</dict>
 			<key>FMNode.parentGroup</key>
 			<dict>
@@ -375,9 +368,9 @@
 				<string>$object-13</string>
 			</dict>
 			<key>FMNode.position.x</key>
-			<real>352.5</real>
+			<real>520.5</real>
 			<key>FMNode.position.y</key>
-			<real>235.5</real>
+			<real>361</real>
 			<key>FMNode.selected</key>
 			<true/>
 		</dict>

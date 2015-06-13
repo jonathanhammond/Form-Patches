@@ -14,10 +14,7 @@
 			<key>LibraryCategory</key>
 			<string>User</string>
 			<key>LibraryDescription</key>
-			<string>This patch interpolates between two numerical values over time.
-
-The curve used for the interpolation can be chosen among presets (linear, quadratic, exponential...) or defined manually through a cubic spline using up to 16 control points.
-The duration of the interpolation and its looping mode can also be specified.</string>
+			<string></string>
 		</dict>
 		<key>$object-1</key>
 		<dict>
@@ -26,46 +23,46 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMDocument.imageStore</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-88</string>
+				<string>$object-184</string>
 			</dict>
 			<key>FMNode.forceAllowsSubnodes</key>
 			<true/>
 			<key>FMNode.inputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-79</string>
+				<string>$object-175</string>
 			</dict>
 			<key>FMNode.inputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-83</string>
+				<string>$object-179</string>
 			</dict>
 			<key>FMNode.inspectorPanel</key>
 			<integer>0</integer>
 			<key>FMNode.outputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-81</string>
+				<string>$object-177</string>
 			</dict>
 			<key>FMNode.outputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-84</string>
+				<string>$object-180</string>
 			</dict>
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-86</string>
+				<string>$object-182</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-87</string>
+				<string>$object-183</string>
 			</dict>
 			<key>FMNode.portsByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-85</string>
+				<string>$object-181</string>
 			</dict>
 			<key>FMNode.position.x</key>
 			<real>0.0</real>
@@ -96,34 +93,468 @@ The duration of the interpolation and its looping mode can also be specified.</s
 				<string>$object-11</string>
 			</dict>
 		</dict>
+		<key>$object-100</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Output</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-101</key>
+		<dict>
+			<key>Form.input</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-102</string>
+			</dict>
+			<key>Form.inputMaxInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-24</string>
+			</dict>
+			<key>Form.inputMinInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-109</string>
+			</dict>
+			<key>Form.output</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-112</string>
+			</dict>
+			<key>Form.outputMaxInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-66</string>
+			</dict>
+			<key>Form.outputMinInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-46</string>
+			</dict>
+			<key>Form.repeatModeInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-120</string>
+			</dict>
+		</dict>
+		<key>$object-102</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-103</string>
+			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-106</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-103</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-104</string>
+			</dict>
+		</dict>
+		<key>$object-104</key>
+		<dict>
+			<key>$class</key>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-102</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-105</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-102</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-105</string>
+			</dict>
+		</dict>
+		<key>$object-105</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-156</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-106</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>150</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
+		</dict>
+		<key>$object-107</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-23</string>
+			</dict>
+		</dict>
+		<key>$object-108</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>10</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
+		</dict>
+		<key>$object-109</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-110</string>
+			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-111</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+		</dict>
 		<key>$object-11</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 			<key>NS.object.0</key>
-			<string>Output</string>
+			<string>__Default</string>
+		</dict>
+		<key>$object-110</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-111</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>0.0</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
+		</dict>
+		<key>$object-112</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-113</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-113</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-114</string>
+			</dict>
+		</dict>
+		<key>$object-114</key>
+		<dict>
+			<key>$class</key>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-115</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-112</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-115</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-112</string>
+			</dict>
+		</dict>
+		<key>$object-115</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-136</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-116</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-65</string>
+			</dict>
+		</dict>
+		<key>$object-117</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>600</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
+		</dict>
+		<key>$object-118</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-45</string>
+			</dict>
+		</dict>
+		<key>$object-119</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>205</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
 		</dict>
 		<key>$object-12</key>
 		<dict>
-			<key>Input</key>
+			<key>__Default</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-13</string>
 			</dict>
-			<key>Input Range</key>
+		</dict>
+		<key>$object-120</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-14</string>
+				<string>$object-122</string>
 			</dict>
-			<key>Output Range</key>
+			<key>FMPatchPort.staticValue</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-15</string>
+				<string>$object-123</string>
 			</dict>
-			<key>Repeat Mode</key>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+			<key>FMPort.symbolicPort</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-16</string>
+				<string>$object-121</string>
+			</dict>
+		</dict>
+		<key>$object-121</key>
+		<dict>
+			<key>$class</key>
+			<string>FMSymbolicPort</string>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+			<key>FMSymbolicPort.name</key>
+			<string>Repeat Mode</string>
+			<key>FMSymbolicPort.port</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-120</string>
+			</dict>
+		</dict>
+		<key>$object-122</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-123</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.indexValue</key>
+			<integer>0</integer>
+			<key>PMRPrimitive.storageType</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-124</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-125</key>
+		<dict/>
+		<key>$object-126</key>
+		<dict>
+			<key>$class</key>
+			<string>FMNode</string>
+			<key>FMNode.forceAllowsSubnodes</key>
+			<false/>
+			<key>FMNode.inputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-127</string>
+			</dict>
+			<key>FMNode.inputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-131</string>
+			</dict>
+			<key>FMNode.inspectorPanel</key>
+			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>Input Splitter</string>
+			<key>FMNode.outputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-129</string>
+			</dict>
+			<key>FMNode.outputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-133</string>
+			</dict>
+			<key>FMNode.parameters</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-140</string>
+			</dict>
+			<key>FMNode.parametersByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-141</string>
+			</dict>
+			<key>FMNode.parentGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-5</string>
+			</dict>
+			<key>FMNode.patchClass</key>
+			<string>FMRInputSplitterNode</string>
+			<key>FMNode.portsByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-135</string>
+			</dict>
+			<key>FMNode.position.x</key>
+			<real>939</real>
+			<key>FMNode.position.y</key>
+			<real>379.99996948242188</real>
+			<key>FMNode.selected</key>
+			<false/>
+		</dict>
+		<key>$object-127</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-126</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-128</string>
+			</dict>
+		</dict>
+		<key>$object-128</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-129</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-126</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-130</string>
 			</dict>
 		</dict>
 		<key>$object-13</key>
@@ -135,7 +566,7 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.collapsedSidebarGroup</key>
 			<false/>
 			<key>FMPortGroup.groupKey</key>
-			<string>Input</string>
+			<string>__Default</string>
 			<key>FMPortGroup.hidden</key>
 			<false/>
 			<key>FMPortGroup.node</key>
@@ -146,7 +577,22 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.orientation</key>
 			<integer>1</integer>
 		</dict>
-		<key>$object-14</key>
+		<key>$object-130</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-131</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-132</string>
+			</dict>
+		</dict>
+		<key>$object-132</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPortGroup</string>
@@ -155,16 +601,265 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.collapsedSidebarGroup</key>
 			<false/>
 			<key>FMPortGroup.groupKey</key>
-			<string>Input Range</string>
+			<string>__Default</string>
 			<key>FMPortGroup.hidden</key>
 			<false/>
 			<key>FMPortGroup.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-7</string>
+				<string>$object-126</string>
 			</dict>
 			<key>FMPortGroup.orientation</key>
 			<integer>1</integer>
+		</dict>
+		<key>$object-133</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-134</string>
+			</dict>
+		</dict>
+		<key>$object-134</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>__Default</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-126</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-135</key>
+		<dict>
+			<key>Form.input</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-115</string>
+			</dict>
+			<key>Form.output</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-137</string>
+			</dict>
+		</dict>
+		<key>$object-136</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-114</string>
+			</dict>
+		</dict>
+		<key>$object-137</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-139</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
+			<key>FMPort.symbolicPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-138</string>
+			</dict>
+		</dict>
+		<key>$object-138</key>
+		<dict>
+			<key>$class</key>
+			<string>FMSymbolicPort</string>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
+			<key>FMSymbolicPort.name</key>
+			<string>Value</string>
+			<key>FMSymbolicPort.port</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-137</string>
+			</dict>
+		</dict>
+		<key>$object-139</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-14</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-15</string>
+			</dict>
+		</dict>
+		<key>$object-140</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-141</key>
+		<dict/>
+		<key>$object-142</key>
+		<dict>
+			<key>$class</key>
+			<string>FMNode</string>
+			<key>FMNode.forceAllowsSubnodes</key>
+			<false/>
+			<key>FMNode.inputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-143</string>
+			</dict>
+			<key>FMNode.inputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-147</string>
+			</dict>
+			<key>FMNode.inspectorPanel</key>
+			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>Clamp</string>
+			<key>FMNode.outputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-145</string>
+			</dict>
+			<key>FMNode.outputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-149</string>
+			</dict>
+			<key>FMNode.parameters</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-158</string>
+			</dict>
+			<key>FMNode.parametersByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-159</string>
+			</dict>
+			<key>FMNode.parentGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-5</string>
+			</dict>
+			<key>FMNode.patchClass</key>
+			<string>FMRClampNode</string>
+			<key>FMNode.portsByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-151</string>
+			</dict>
+			<key>FMNode.position.x</key>
+			<real>454.99993896484375</real>
+			<key>FMNode.position.y</key>
+			<real>300</real>
+			<key>FMNode.selected</key>
+			<false/>
+		</dict>
+		<key>$object-143</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-142</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-144</string>
+			</dict>
+		</dict>
+		<key>$object-144</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-145</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-142</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-146</string>
+			</dict>
+		</dict>
+		<key>$object-146</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-147</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-148</string>
+			</dict>
+		</dict>
+		<key>$object-148</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>__Default</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-142</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-149</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-150</string>
+			</dict>
 		</dict>
 		<key>$object-15</key>
 		<dict>
@@ -175,55 +870,7 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.collapsedSidebarGroup</key>
 			<false/>
 			<key>FMPortGroup.groupKey</key>
-			<string>Output Range</string>
-			<key>FMPortGroup.hidden</key>
-			<false/>
-			<key>FMPortGroup.node</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-7</string>
-			</dict>
-			<key>FMPortGroup.orientation</key>
-			<integer>1</integer>
-		</dict>
-		<key>$object-16</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPatchPortGroup</string>
-			<key>FMPortGroup.collapsedCanvasGroup</key>
-			<false/>
-			<key>FMPortGroup.collapsedSidebarGroup</key>
-			<false/>
-			<key>FMPortGroup.groupKey</key>
-			<string>Repeat Mode</string>
-			<key>FMPortGroup.hidden</key>
-			<false/>
-			<key>FMPortGroup.node</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-7</string>
-			</dict>
-			<key>FMPortGroup.orientation</key>
-			<integer>1</integer>
-		</dict>
-		<key>$object-17</key>
-		<dict>
-			<key>Output</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-18</string>
-			</dict>
-		</dict>
-		<key>$object-18</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPatchPortGroup</string>
-			<key>FMPortGroup.collapsedCanvasGroup</key>
-			<false/>
-			<key>FMPortGroup.collapsedSidebarGroup</key>
-			<false/>
-			<key>FMPortGroup.groupKey</key>
-			<string>Output</string>
+			<string>__Default</string>
 			<key>FMPortGroup.hidden</key>
 			<false/>
 			<key>FMPortGroup.node</key>
@@ -234,43 +881,408 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.orientation</key>
 			<integer>2</integer>
 		</dict>
-		<key>$object-19</key>
+		<key>$object-150</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>__Default</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-142</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-151</key>
+		<dict>
+			<key>Form.maximumInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-26</string>
+			</dict>
+			<key>Form.minimumInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-153</string>
+			</dict>
+			<key>Form.resultOutput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-105</string>
+			</dict>
+			<key>Form.valueInput</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-86</string>
+			</dict>
+		</dict>
+		<key>$object-152</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-25</string>
+			</dict>
+		</dict>
+		<key>$object-153</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-154</string>
+			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-155</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-154</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-155</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.indexValue</key>
+			<integer>0</integer>
+			<key>PMRPrimitive.storageType</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-156</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-104</string>
+			</dict>
+		</dict>
+		<key>$object-157</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-85</string>
+			</dict>
+		</dict>
+		<key>$object-158</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-159</key>
+		<dict/>
+		<key>$object-16</key>
 		<dict>
 			<key>Form.input</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-20</string>
-			</dict>
-			<key>Form.inputMaxInput</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-23</string>
-			</dict>
-			<key>Form.inputMinInput</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-27</string>
+				<string>$object-17</string>
 			</dict>
 			<key>Form.output</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-30</string>
+				<string>$object-21</string>
 			</dict>
-			<key>Form.outputMaxInput</key>
+		</dict>
+		<key>$object-160</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-34</string>
+				<string>$object-121</string>
 			</dict>
-			<key>Form.outputMinInput</key>
+			<key>NS.object.1</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-38</string>
+				<string>$object-18</string>
 			</dict>
-			<key>Form.repeatModeInput</key>
+			<key>NS.object.2</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-42</string>
+				<string>$object-40</string>
 			</dict>
+			<key>NS.object.3</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-60</string>
+			</dict>
+			<key>NS.object.4</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-80</string>
+			</dict>
+		</dict>
+		<key>$object-161</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-138</string>
+			</dict>
+		</dict>
+		<key>$object-162</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-4</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-163</string>
+			</dict>
+		</dict>
+		<key>$object-163</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>Published</string>
+		</dict>
+		<key>$object-164</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-4</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-165</string>
+			</dict>
+		</dict>
+		<key>$object-165</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>Published</string>
+		</dict>
+		<key>$object-166</key>
+		<dict>
+			<key>Published</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-167</string>
+			</dict>
+		</dict>
+		<key>$object-167</key>
+		<dict>
+			<key>$class</key>
+			<string>FMSymbolicPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Published</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-4</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-168</key>
+		<dict>
+			<key>Published</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-169</string>
+			</dict>
+		</dict>
+		<key>$object-169</key>
+		<dict>
+			<key>$class</key>
+			<string>FMSymbolicPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Published</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-4</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-17</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-19</string>
+			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-20</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+			<key>FMPort.symbolicPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-18</string>
+			</dict>
+		</dict>
+		<key>$object-170</key>
+		<dict/>
+		<key>$object-171</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-172</key>
+		<dict/>
+		<key>$object-173</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-174</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-175</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-1</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-176</string>
+			</dict>
+		</dict>
+		<key>$object-176</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-177</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-1</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-178</string>
+			</dict>
+		</dict>
+		<key>$object-178</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-179</key>
+		<dict/>
+		<key>$object-18</key>
+		<dict>
+			<key>$class</key>
+			<string>FMSymbolicPort</string>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+			<key>FMSymbolicPort.name</key>
+			<string>Duration</string>
+			<key>FMSymbolicPort.port</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-17</string>
+			</dict>
+		</dict>
+		<key>$object-180</key>
+		<dict/>
+		<key>$object-181</key>
+		<dict/>
+		<key>$object-182</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-183</key>
+		<dict/>
+		<key>$object-184</key>
+		<dict>
+			<key>$class</key>
+			<string>FMImageStore</string>
+			<key>FMImageStore.imageEntries</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-185</string>
+			</dict>
+		</dict>
+		<key>$object-185</key>
+		<dict/>
+		<key>$object-19</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
 		</dict>
 		<key>$object-2</key>
 		<dict>
@@ -295,15 +1307,24 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMGroup.symbolicInputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-77</string>
+				<string>$object-173</string>
 			</dict>
 			<key>FMGroup.symbolicOutputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-78</string>
+				<string>$object-174</string>
 			</dict>
 		</dict>
 		<key>$object-20</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>0.5</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
+		</dict>
+		<key>$object-21</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPort</string>
@@ -313,122 +1334,173 @@ The duration of the interpolation and its looping mode can also be specified.</s
 				<string>$object-22</string>
 			</dict>
 			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
-			<key>FMPort.orientation</key>
 			<integer>1</integer>
-			<key>FMPort.symbolicPort</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-21</string>
-			</dict>
-		</dict>
-		<key>$object-21</key>
-		<dict>
-			<key>$class</key>
-			<string>FMSymbolicPort</string>
-			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
 			<key>FMPort.orientation</key>
-			<integer>1</integer>
-			<key>FMSymbolicPort.name</key>
-			<string>Patch Time</string>
-			<key>FMSymbolicPort.port</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-20</string>
-			</dict>
+			<integer>2</integer>
 		</dict>
 		<key>$object-22</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-23</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPatchPort</string>
-			<key>FMPatchPort.connections</key>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-23</string>
+			</dict>
+			<key>NS.object.1</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-25</string>
 			</dict>
-			<key>FMPatchPort.staticValue</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-26</string>
-			</dict>
-			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
-			<key>FMPort.orientation</key>
-			<integer>1</integer>
-			<key>FMPort.symbolicPort</key>
+		</dict>
+		<key>$object-23</key>
+		<dict>
+			<key>$class</key>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-24</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-21</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-24</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-21</string>
 			</dict>
 		</dict>
 		<key>$object-24</key>
 		<dict>
 			<key>$class</key>
-			<string>FMSymbolicPort</string>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-107</string>
+			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-108</string>
+			</dict>
 			<key>FMPort.connectionRelationship</key>
 			<integer>2</integer>
 			<key>FMPort.orientation</key>
 			<integer>1</integer>
-			<key>FMSymbolicPort.name</key>
-			<string>Duration</string>
-			<key>FMSymbolicPort.port</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-23</string>
-			</dict>
 		</dict>
 		<key>$object-25</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-26</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-21</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-26</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-21</string>
+			</dict>
 		</dict>
 		<key>$object-26</key>
-		<dict>
-			<key>$class</key>
-			<string>PMRPrimitive</string>
-			<key>PMRPrimitive.numberValue</key>
-			<real>50</real>
-			<key>PMRPrimitive.storageType</key>
-			<integer>3</integer>
-		</dict>
-		<key>$object-27</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPort</string>
 			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-28</string>
-			</dict>
-			<key>FMPatchPort.staticValue</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-29</string>
+				<string>$object-152</string>
 			</dict>
 			<key>FMPort.connectionRelationship</key>
 			<integer>2</integer>
 			<key>FMPort.orientation</key>
 			<integer>1</integer>
 		</dict>
-		<key>$object-28</key>
+		<key>$object-27</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 		</dict>
+		<key>$object-28</key>
+		<dict/>
 		<key>$object-29</key>
 		<dict>
 			<key>$class</key>
-			<string>PMRPrimitive</string>
-			<key>PMRPrimitive.numberValue</key>
-			<real>0.0</real>
-			<key>PMRPrimitive.storageType</key>
-			<integer>3</integer>
+			<string>FMNode</string>
+			<key>FMNode.forceAllowsSubnodes</key>
+			<false/>
+			<key>FMNode.inputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-30</string>
+			</dict>
+			<key>FMNode.inputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-34</string>
+			</dict>
+			<key>FMNode.inspectorPanel</key>
+			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>Start Value</string>
+			<key>FMNode.outputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-32</string>
+			</dict>
+			<key>FMNode.outputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-36</string>
+			</dict>
+			<key>FMNode.parameters</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-47</string>
+			</dict>
+			<key>FMNode.parametersByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-48</string>
+			</dict>
+			<key>FMNode.parentGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-5</string>
+			</dict>
+			<key>FMNode.patchClass</key>
+			<string>FMRInputSplitterNode</string>
+			<key>FMNode.portsByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-38</string>
+			</dict>
+			<key>FMNode.position.x</key>
+			<real>94.49993896484375</real>
+			<key>FMNode.position.y</key>
+			<real>562.5</real>
+			<key>FMNode.selected</key>
+			<false/>
 		</dict>
 		<key>$object-3</key>
 		<array>
@@ -440,85 +1512,54 @@ The duration of the interpolation and its looping mode can also be specified.</s
 		<key>$object-30</key>
 		<dict>
 			<key>$class</key>
-			<string>FMPatchPort</string>
-			<key>FMPatchPort.connections</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-29</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-31</string>
 			</dict>
-			<key>FMPort.connectionRelationship</key>
-			<integer>1</integer>
-			<key>FMPort.orientation</key>
-			<integer>2</integer>
 		</dict>
 		<key>$object-31</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 			<key>NS.object.0</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-32</string>
-			</dict>
+			<string>__Default</string>
 		</dict>
 		<key>$object-32</key>
 		<dict>
 			<key>$class</key>
-			<string>FMConnection</string>
-			<key>FMConnection.displayInputPort</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-29</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-33</string>
-			</dict>
-			<key>FMConnection.displayOutputPort</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-30</string>
-			</dict>
-			<key>FMConnection.inputPort</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-33</string>
-			</dict>
-			<key>FMConnection.outputPort</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-30</string>
 			</dict>
 		</dict>
 		<key>$object-33</key>
 		<dict>
 			<key>$class</key>
-			<string>FMPatchPort</string>
-			<key>FMPatchPort.connections</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-58</string>
-			</dict>
-			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
-			<key>FMPort.orientation</key>
-			<integer>1</integer>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
 		</dict>
 		<key>$object-34</key>
 		<dict>
-			<key>$class</key>
-			<string>FMPatchPort</string>
-			<key>FMPatchPort.connections</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-36</string>
-			</dict>
-			<key>FMPatchPort.staticValue</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-37</string>
-			</dict>
-			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
-			<key>FMPort.orientation</key>
-			<integer>1</integer>
-			<key>FMPort.symbolicPort</key>
+			<key>__Default</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-35</string>
@@ -527,46 +1568,77 @@ The duration of the interpolation and its looping mode can also be specified.</s
 		<key>$object-35</key>
 		<dict>
 			<key>$class</key>
-			<string>FMSymbolicPort</string>
-			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
-			<key>FMPort.orientation</key>
-			<integer>1</integer>
-			<key>FMSymbolicPort.name</key>
-			<string>End Value</string>
-			<key>FMSymbolicPort.port</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>__Default</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-34</string>
+				<string>$object-29</string>
 			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
 		</dict>
 		<key>$object-36</key>
 		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-37</string>
+			</dict>
 		</dict>
 		<key>$object-37</key>
 		<dict>
 			<key>$class</key>
-			<string>PMRPrimitive</string>
-			<key>PMRPrimitive.numberValue</key>
-			<real>600</real>
-			<key>PMRPrimitive.storageType</key>
-			<integer>3</integer>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>__Default</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-29</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>2</integer>
 		</dict>
 		<key>$object-38</key>
+		<dict>
+			<key>Form.input</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-39</string>
+			</dict>
+			<key>Form.output</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-43</string>
+			</dict>
+		</dict>
+		<key>$object-39</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPort</string>
 			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-40</string>
+				<string>$object-41</string>
 			</dict>
 			<key>FMPatchPort.staticValue</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-41</string>
+				<string>$object-42</string>
 			</dict>
 			<key>FMPort.connectionRelationship</key>
 			<integer>2</integer>
@@ -575,10 +1647,72 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPort.symbolicPort</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-39</string>
+				<string>$object-40</string>
 			</dict>
 		</dict>
-		<key>$object-39</key>
+		<key>$object-4</key>
+		<dict>
+			<key>$class</key>
+			<string>FMNode</string>
+			<key>FMNode.forceAllowsSubnodes</key>
+			<true/>
+			<key>FMNode.inputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-162</string>
+			</dict>
+			<key>FMNode.inputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-166</string>
+			</dict>
+			<key>FMNode.inspectorPanel</key>
+			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>Interpolation</string>
+			<key>FMNode.outputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-164</string>
+			</dict>
+			<key>FMNode.outputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-168</string>
+			</dict>
+			<key>FMNode.parameters</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-171</string>
+			</dict>
+			<key>FMNode.parametersByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-172</string>
+			</dict>
+			<key>FMNode.parentGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-2</string>
+			</dict>
+			<key>FMNode.portsByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-170</string>
+			</dict>
+			<key>FMNode.position.x</key>
+			<real>894.49993896484375</real>
+			<key>FMNode.position.y</key>
+			<real>492.99993896484375</real>
+			<key>FMNode.selected</key>
+			<true/>
+			<key>FMNode.subnodeGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-5</string>
+			</dict>
+		</dict>
+		<key>$object-40</key>
 		<dict>
 			<key>$class</key>
 			<string>FMSymbolicPort</string>
@@ -591,86 +1725,24 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMSymbolicPort.port</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-38</string>
+				<string>$object-39</string>
 			</dict>
-		</dict>
-		<key>$object-4</key>
-		<dict>
-			<key>$class</key>
-			<string>FMNode</string>
-			<key>FMNode.forceAllowsSubnodes</key>
-			<true/>
-			<key>FMNode.inputPortGroupCollection</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-66</string>
-			</dict>
-			<key>FMNode.inputPortGroupsByKey</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-70</string>
-			</dict>
-			<key>FMNode.inspectorPanel</key>
-			<integer>0</integer>
-			<key>FMNode.name</key>
-			<string>Interpolation</string>
-			<key>FMNode.outputPortGroupCollection</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-68</string>
-			</dict>
-			<key>FMNode.outputPortGroupsByKey</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-72</string>
-			</dict>
-			<key>FMNode.parameters</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-75</string>
-			</dict>
-			<key>FMNode.parametersByUniqueKey</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-76</string>
-			</dict>
-			<key>FMNode.parentGroup</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-2</string>
-			</dict>
-			<key>FMNode.portsByUniqueKey</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-74</string>
-			</dict>
-			<key>FMNode.position.x</key>
-			<real>402.49996948242188</real>
-			<key>FMNode.position.y</key>
-			<real>340.49996948242188</real>
-			<key>FMNode.selected</key>
-			<true/>
-			<key>FMNode.subnodeGroup</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-5</string>
-			</dict>
-		</dict>
-		<key>$object-40</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
 		</dict>
 		<key>$object-41</key>
 		<dict>
 			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-42</key>
+		<dict>
+			<key>$class</key>
 			<string>PMRPrimitive</string>
 			<key>PMRPrimitive.numberValue</key>
-			<real>0.0</real>
+			<real>774</real>
 			<key>PMRPrimitive.storageType</key>
 			<integer>3</integer>
 		</dict>
-		<key>$object-42</key>
+		<key>$object-43</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPort</string>
@@ -679,59 +1751,73 @@ The duration of the interpolation and its looping mode can also be specified.</s
 				<key>$reference</key>
 				<string>$object-44</string>
 			</dict>
-			<key>FMPatchPort.staticValue</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-45</string>
-			</dict>
 			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
-			<key>FMPort.orientation</key>
 			<integer>1</integer>
-			<key>FMPort.symbolicPort</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-43</string>
-			</dict>
-		</dict>
-		<key>$object-43</key>
-		<dict>
-			<key>$class</key>
-			<string>FMSymbolicPort</string>
-			<key>FMPort.connectionRelationship</key>
-			<integer>2</integer>
 			<key>FMPort.orientation</key>
-			<integer>1</integer>
-			<key>FMSymbolicPort.name</key>
-			<string>Repeat Mode</string>
-			<key>FMSymbolicPort.port</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-42</string>
-			</dict>
+			<integer>2</integer>
 		</dict>
 		<key>$object-44</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-45</string>
+			</dict>
 		</dict>
 		<key>$object-45</key>
 		<dict>
 			<key>$class</key>
-			<string>PMRPrimitive</string>
-			<key>PMRPrimitive.indexValue</key>
-			<integer>2</integer>
-			<key>PMRPrimitive.storageType</key>
-			<integer>2</integer>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-46</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-43</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-46</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-43</string>
+			</dict>
 		</dict>
 		<key>$object-46</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-118</string>
+			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-119</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
 		</dict>
 		<key>$object-47</key>
-		<dict/>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
 		<key>$object-48</key>
+		<dict/>
+		<key>$object-49</key>
 		<dict>
 			<key>$class</key>
 			<string>FMNode</string>
@@ -740,36 +1826,36 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMNode.inputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-49</string>
+				<string>$object-50</string>
 			</dict>
 			<key>FMNode.inputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-53</string>
+				<string>$object-54</string>
 			</dict>
 			<key>FMNode.inspectorPanel</key>
 			<integer>0</integer>
 			<key>FMNode.name</key>
-			<string>Input Splitter</string>
+			<string>End Value</string>
 			<key>FMNode.outputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-51</string>
+				<string>$object-52</string>
 			</dict>
 			<key>FMNode.outputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-55</string>
+				<string>$object-56</string>
 			</dict>
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-62</string>
+				<string>$object-67</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-63</string>
+				<string>$object-68</string>
 			</dict>
 			<key>FMNode.parentGroup</key>
 			<dict>
@@ -781,40 +1867,23 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMNode.portsByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-57</string>
+				<string>$object-58</string>
 			</dict>
 			<key>FMNode.position.x</key>
-			<real>764.5</real>
+			<real>87.49993896484375</real>
 			<key>FMNode.position.y</key>
-			<real>391.49996948242188</real>
+			<real>437.5</real>
 			<key>FMNode.selected</key>
 			<false/>
-		</dict>
-		<key>$object-49</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPortGroupCollection</string>
-			<key>FMPortGroupCollection.node</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-48</string>
-			</dict>
-			<key>FMPortGroupCollection.orientation</key>
-			<integer>1</integer>
-			<key>FMPortGroupCollection.portGroupKeys</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-50</string>
-			</dict>
 		</dict>
 		<key>$object-5</key>
 		<dict>
 			<key>$class</key>
 			<string>FMGroup</string>
 			<key>FMGroup.canvasCenter.x</key>
-			<real>532.99993896484375</real>
+			<real>165.49998474121094</real>
 			<key>FMGroup.canvasCenter.y</key>
-			<real>449.49996948242188</real>
+			<real>541.49993896484375</real>
 			<key>FMGroup.node</key>
 			<dict>
 				<key>$reference</key>
@@ -830,54 +1899,71 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMGroup.symbolicInputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-64</string>
+				<string>$object-160</string>
 			</dict>
 			<key>FMGroup.symbolicOutputPorts</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-65</string>
+				<string>$object-161</string>
 			</dict>
 		</dict>
 		<key>$object-50</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-			<key>NS.object.0</key>
-			<string>__Default</string>
-		</dict>
-		<key>$object-51</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPortGroupCollection</string>
 			<key>FMPortGroupCollection.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-48</string>
+				<string>$object-49</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-51</string>
+			</dict>
+		</dict>
+		<key>$object-51</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-52</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-49</string>
 			</dict>
 			<key>FMPortGroupCollection.orientation</key>
 			<integer>2</integer>
 			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-52</string>
+				<string>$object-53</string>
 			</dict>
 		</dict>
-		<key>$object-52</key>
+		<key>$object-53</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
 			<key>NS.object.0</key>
 			<string>__Default</string>
 		</dict>
-		<key>$object-53</key>
+		<key>$object-54</key>
 		<dict>
 			<key>__Default</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-54</string>
+				<string>$object-55</string>
 			</dict>
 		</dict>
-		<key>$object-54</key>
+		<key>$object-55</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPortGroup</string>
@@ -892,20 +1978,20 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-48</string>
+				<string>$object-49</string>
 			</dict>
 			<key>FMPortGroup.orientation</key>
 			<integer>1</integer>
 		</dict>
-		<key>$object-55</key>
+		<key>$object-56</key>
 		<dict>
 			<key>__Default</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-56</string>
+				<string>$object-57</string>
 			</dict>
 		</dict>
-		<key>$object-56</key>
+		<key>$object-57</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPatchPortGroup</string>
@@ -920,32 +2006,22 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMPortGroup.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-48</string>
+				<string>$object-49</string>
 			</dict>
 			<key>FMPortGroup.orientation</key>
 			<integer>2</integer>
 		</dict>
-		<key>$object-57</key>
+		<key>$object-58</key>
 		<dict>
 			<key>Form.input</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-33</string>
+				<string>$object-59</string>
 			</dict>
 			<key>Form.output</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-59</string>
-			</dict>
-		</dict>
-		<key>$object-58</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-			<key>NS.object.0</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-32</string>
+				<string>$object-63</string>
 			</dict>
 		</dict>
 		<key>$object-59</key>
@@ -957,10 +2033,15 @@ The duration of the interpolation and its looping mode can also be specified.</s
 				<key>$reference</key>
 				<string>$object-61</string>
 			</dict>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-62</string>
+			</dict>
 			<key>FMPort.connectionRelationship</key>
-			<integer>1</integer>
-			<key>FMPort.orientation</key>
 			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
 			<key>FMPort.symbolicPort</key>
 			<dict>
 				<key>$reference</key>
@@ -975,7 +2056,27 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			</dict>
 			<dict>
 				<key>$reference</key>
-				<string>$object-48</string>
+				<string>$object-29</string>
+			</dict>
+			<dict>
+				<key>$reference</key>
+				<string>$object-49</string>
+			</dict>
+			<dict>
+				<key>$reference</key>
+				<string>$object-69</string>
+			</dict>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<dict>
+				<key>$reference</key>
+				<string>$object-126</string>
+			</dict>
+			<dict>
+				<key>$reference</key>
+				<string>$object-142</string>
 			</dict>
 		</array>
 		<key>$object-60</key>
@@ -983,11 +2084,11 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>$class</key>
 			<string>FMSymbolicPort</string>
 			<key>FMPort.connectionRelationship</key>
-			<integer>1</integer>
-			<key>FMPort.orientation</key>
 			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
 			<key>FMSymbolicPort.name</key>
-			<string>Value</string>
+			<string>End Value</string>
 			<key>FMSymbolicPort.port</key>
 			<dict>
 				<key>$reference</key>
@@ -1002,10 +2103,26 @@ The duration of the interpolation and its looping mode can also be specified.</s
 		<key>$object-62</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.numberValue</key>
+			<real>0.0</real>
+			<key>PMRPrimitive.storageType</key>
+			<integer>3</integer>
 		</dict>
 		<key>$object-63</key>
-		<dict/>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-64</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
+		</dict>
 		<key>$object-64</key>
 		<dict>
 			<key>$class</key>
@@ -1013,86 +2130,118 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>NS.object.0</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-21</string>
-			</dict>
-			<key>NS.object.1</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-39</string>
-			</dict>
-			<key>NS.object.2</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-35</string>
-			</dict>
-			<key>NS.object.3</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-24</string>
-			</dict>
-			<key>NS.object.4</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-43</string>
+				<string>$object-65</string>
 			</dict>
 		</dict>
 		<key>$object-65</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
-			<key>NS.object.0</key>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-60</string>
+				<string>$object-66</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-63</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-66</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-63</string>
 			</dict>
 		</dict>
 		<key>$object-66</key>
 		<dict>
 			<key>$class</key>
-			<string>FMPortGroupCollection</string>
-			<key>FMPortGroupCollection.node</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-4</string>
+				<string>$object-116</string>
 			</dict>
-			<key>FMPortGroupCollection.orientation</key>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-117</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
 			<integer>1</integer>
-			<key>FMPortGroupCollection.portGroupKeys</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-67</string>
-			</dict>
 		</dict>
 		<key>$object-67</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
-			<key>NS.object.0</key>
-			<string>Published</string>
 		</dict>
 		<key>$object-68</key>
-		<dict>
-			<key>$class</key>
-			<string>FMPortGroupCollection</string>
-			<key>FMPortGroupCollection.node</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-4</string>
-			</dict>
-			<key>FMPortGroupCollection.orientation</key>
-			<integer>2</integer>
-			<key>FMPortGroupCollection.portGroupKeys</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-69</string>
-			</dict>
-		</dict>
+		<dict/>
 		<key>$object-69</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
-			<key>NS.object.0</key>
-			<string>Published</string>
+			<string>FMNode</string>
+			<key>FMNode.forceAllowsSubnodes</key>
+			<false/>
+			<key>FMNode.inputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-70</string>
+			</dict>
+			<key>FMNode.inputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-74</string>
+			</dict>
+			<key>FMNode.inspectorPanel</key>
+			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>Patch Time</string>
+			<key>FMNode.outputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-72</string>
+			</dict>
+			<key>FMNode.outputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-76</string>
+			</dict>
+			<key>FMNode.parameters</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-87</string>
+			</dict>
+			<key>FMNode.parametersByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-88</string>
+			</dict>
+			<key>FMNode.parentGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-5</string>
+			</dict>
+			<key>FMNode.patchClass</key>
+			<string>FMRInputSplitterNode</string>
+			<key>FMNode.portsByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-78</string>
+			</dict>
+			<key>FMNode.position.x</key>
+			<real>-67.50006103515625</real>
+			<key>FMNode.position.y</key>
+			<real>245.5</real>
+			<key>FMNode.selected</key>
+			<false/>
 		</dict>
 		<key>$object-7</key>
 		<dict>
@@ -1113,7 +2262,7 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMNode.inspectorPanel</key>
 			<integer>0</integer>
 			<key>FMNode.name</key>
-			<string>Interpolation</string>
+			<string>durtation</string>
 			<key>FMNode.outputPortGroupCollection</key>
 			<dict>
 				<key>$reference</key>
@@ -1122,17 +2271,17 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<key>FMNode.outputPortGroupsByKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-17</string>
+				<string>$object-14</string>
 			</dict>
 			<key>FMNode.parameters</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-46</string>
+				<string>$object-27</string>
 			</dict>
 			<key>FMNode.parametersByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-47</string>
+				<string>$object-28</string>
 			</dict>
 			<key>FMNode.parentGroup</key>
 			<dict>
@@ -1140,22 +2289,31 @@ The duration of the interpolation and its looping mode can also be specified.</s
 				<string>$object-5</string>
 			</dict>
 			<key>FMNode.patchClass</key>
-			<string>FMRInterpolationNode</string>
+			<string>FMRInputSplitterNode</string>
 			<key>FMNode.portsByUniqueKey</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-19</string>
+				<string>$object-16</string>
 			</dict>
 			<key>FMNode.position.x</key>
-			<real>402.49996948242188</real>
+			<real>71.99993896484375</real>
 			<key>FMNode.position.y</key>
-			<real>340.49996948242188</real>
+			<real>682</real>
 			<key>FMNode.selected</key>
 			<false/>
 		</dict>
 		<key>$object-70</key>
 		<dict>
-			<key>Published</key>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-69</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>1</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-71</string>
@@ -1164,26 +2322,22 @@ The duration of the interpolation and its looping mode can also be specified.</s
 		<key>$object-71</key>
 		<dict>
 			<key>$class</key>
-			<string>FMSymbolicPortGroup</string>
-			<key>FMPortGroup.collapsedCanvasGroup</key>
-			<false/>
-			<key>FMPortGroup.collapsedSidebarGroup</key>
-			<false/>
-			<key>FMPortGroup.groupKey</key>
-			<string>Published</string>
-			<key>FMPortGroup.hidden</key>
-			<false/>
-			<key>FMPortGroup.node</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-4</string>
-			</dict>
-			<key>FMPortGroup.orientation</key>
-			<integer>1</integer>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
 		</dict>
 		<key>$object-72</key>
 		<dict>
-			<key>Published</key>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-69</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-73</string>
@@ -1192,54 +2346,98 @@ The duration of the interpolation and its looping mode can also be specified.</s
 		<key>$object-73</key>
 		<dict>
 			<key>$class</key>
-			<string>FMSymbolicPortGroup</string>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-74</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-75</string>
+			</dict>
+		</dict>
+		<key>$object-75</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
 			<key>FMPortGroup.collapsedCanvasGroup</key>
 			<false/>
 			<key>FMPortGroup.collapsedSidebarGroup</key>
 			<false/>
 			<key>FMPortGroup.groupKey</key>
-			<string>Published</string>
+			<string>__Default</string>
 			<key>FMPortGroup.hidden</key>
 			<false/>
 			<key>FMPortGroup.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-4</string>
+				<string>$object-69</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-76</key>
+		<dict>
+			<key>__Default</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-77</string>
+			</dict>
+		</dict>
+		<key>$object-77</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>__Default</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-69</string>
 			</dict>
 			<key>FMPortGroup.orientation</key>
 			<integer>2</integer>
 		</dict>
-		<key>$object-74</key>
-		<dict/>
-		<key>$object-75</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-76</key>
-		<dict/>
-		<key>$object-77</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
 		<key>$object-78</key>
 		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<key>Form.input</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-79</string>
+			</dict>
+			<key>Form.output</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-83</string>
+			</dict>
 		</dict>
 		<key>$object-79</key>
 		<dict>
 			<key>$class</key>
-			<string>FMPortGroupCollection</string>
-			<key>FMPortGroupCollection.node</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-1</string>
+				<string>$object-81</string>
 			</dict>
-			<key>FMPortGroupCollection.orientation</key>
+			<key>FMPatchPort.staticValue</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-82</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
 			<integer>1</integer>
-			<key>FMPortGroupCollection.portGroupKeys</key>
+			<key>FMPort.symbolicPort</key>
 			<dict>
 				<key>$reference</key>
 				<string>$object-80</string>
@@ -1265,56 +2463,187 @@ The duration of the interpolation and its looping mode can also be specified.</s
 		<key>$object-80</key>
 		<dict>
 			<key>$class</key>
-			<string>NSOrderedSet</string>
+			<string>FMSymbolicPort</string>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+			<key>FMSymbolicPort.name</key>
+			<string>Patch Time</string>
+			<key>FMSymbolicPort.port</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-79</string>
+			</dict>
 		</dict>
 		<key>$object-81</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-82</key>
+		<dict>
+			<key>$class</key>
+			<string>PMRPrimitive</string>
+			<key>PMRPrimitive.indexValue</key>
+			<integer>359</integer>
+			<key>PMRPrimitive.storageType</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-83</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-84</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>1</integer>
+			<key>FMPort.orientation</key>
+			<integer>2</integer>
+		</dict>
+		<key>$object-84</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-85</string>
+			</dict>
+		</dict>
+		<key>$object-85</key>
+		<dict>
+			<key>$class</key>
+			<string>FMConnection</string>
+			<key>FMConnection.displayInputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-86</string>
+			</dict>
+			<key>FMConnection.displayOutputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-83</string>
+			</dict>
+			<key>FMConnection.inputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-86</string>
+			</dict>
+			<key>FMConnection.outputPort</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-83</string>
+			</dict>
+		</dict>
+		<key>$object-86</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPort</string>
+			<key>FMPatchPort.connections</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-157</string>
+			</dict>
+			<key>FMPort.connectionRelationship</key>
+			<integer>2</integer>
+			<key>FMPort.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-87</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+		</dict>
+		<key>$object-88</key>
+		<dict/>
+		<key>$object-89</key>
+		<dict>
+			<key>$class</key>
+			<string>FMNode</string>
+			<key>FMNode.forceAllowsSubnodes</key>
+			<false/>
+			<key>FMNode.inputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-90</string>
+			</dict>
+			<key>FMNode.inputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-94</string>
+			</dict>
+			<key>FMNode.inspectorPanel</key>
+			<integer>0</integer>
+			<key>FMNode.name</key>
+			<string>Interpolation</string>
+			<key>FMNode.outputPortGroupCollection</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-92</string>
+			</dict>
+			<key>FMNode.outputPortGroupsByKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-99</string>
+			</dict>
+			<key>FMNode.parameters</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-124</string>
+			</dict>
+			<key>FMNode.parametersByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-125</string>
+			</dict>
+			<key>FMNode.parentGroup</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-5</string>
+			</dict>
+			<key>FMNode.patchClass</key>
+			<string>FMRInterpolationNode</string>
+			<key>FMNode.portsByUniqueKey</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-101</string>
+			</dict>
+			<key>FMNode.position.x</key>
+			<real>725</real>
+			<key>FMNode.position.y</key>
+			<real>305.49996948242188</real>
+			<key>FMNode.selected</key>
+			<false/>
+		</dict>
+		<key>$object-9</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>__Default</string>
+		</dict>
+		<key>$object-90</key>
 		<dict>
 			<key>$class</key>
 			<string>FMPortGroupCollection</string>
 			<key>FMPortGroupCollection.node</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-1</string>
+				<string>$object-89</string>
 			</dict>
 			<key>FMPortGroupCollection.orientation</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>FMPortGroupCollection.portGroupKeys</key>
 			<dict>
 				<key>$reference</key>
-				<string>$object-82</string>
+				<string>$object-91</string>
 			</dict>
 		</dict>
-		<key>$object-82</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-83</key>
-		<dict/>
-		<key>$object-84</key>
-		<dict/>
-		<key>$object-85</key>
-		<dict/>
-		<key>$object-86</key>
-		<dict>
-			<key>$class</key>
-			<string>NSOrderedSet</string>
-		</dict>
-		<key>$object-87</key>
-		<dict/>
-		<key>$object-88</key>
-		<dict>
-			<key>$class</key>
-			<string>FMImageStore</string>
-			<key>FMImageStore.imageEntries</key>
-			<dict>
-				<key>$reference</key>
-				<string>$object-89</string>
-			</dict>
-		</dict>
-		<key>$object-89</key>
-		<dict/>
-		<key>$object-9</key>
+		<key>$object-91</key>
 		<dict>
 			<key>$class</key>
 			<string>NSOrderedSet</string>
@@ -1326,6 +2655,141 @@ The duration of the interpolation and its looping mode can also be specified.</s
 			<string>Output Range</string>
 			<key>NS.object.3</key>
 			<string>Repeat Mode</string>
+		</dict>
+		<key>$object-92</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPortGroupCollection</string>
+			<key>FMPortGroupCollection.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<key>FMPortGroupCollection.orientation</key>
+			<integer>2</integer>
+			<key>FMPortGroupCollection.portGroupKeys</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-93</string>
+			</dict>
+		</dict>
+		<key>$object-93</key>
+		<dict>
+			<key>$class</key>
+			<string>NSOrderedSet</string>
+			<key>NS.object.0</key>
+			<string>Output</string>
+		</dict>
+		<key>$object-94</key>
+		<dict>
+			<key>Input</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-95</string>
+			</dict>
+			<key>Input Range</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-96</string>
+			</dict>
+			<key>Output Range</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-97</string>
+			</dict>
+			<key>Repeat Mode</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-98</string>
+			</dict>
+		</dict>
+		<key>$object-95</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Input</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-96</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Input Range</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-97</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Output Range</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-98</key>
+		<dict>
+			<key>$class</key>
+			<string>FMPatchPortGroup</string>
+			<key>FMPortGroup.collapsedCanvasGroup</key>
+			<false/>
+			<key>FMPortGroup.collapsedSidebarGroup</key>
+			<false/>
+			<key>FMPortGroup.groupKey</key>
+			<string>Repeat Mode</string>
+			<key>FMPortGroup.hidden</key>
+			<false/>
+			<key>FMPortGroup.node</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-89</string>
+			</dict>
+			<key>FMPortGroup.orientation</key>
+			<integer>1</integer>
+		</dict>
+		<key>$object-99</key>
+		<dict>
+			<key>Output</key>
+			<dict>
+				<key>$reference</key>
+				<string>$object-100</string>
+			</dict>
 		</dict>
 	</dict>
 	<key>$root</key>
