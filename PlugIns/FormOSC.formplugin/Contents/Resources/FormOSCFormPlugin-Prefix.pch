@@ -1,0 +1,13 @@
+//
+//  FormOSCFormPlugin-Prefix.pch
+//  FormOSC
+//
+//  Created by Max Weisel on 12/3/15.
+//  Copyright © 2015 Google. All rights reserved.
+//
+
+#ifdef __OBJC__
+#   import <Foundation/Foundation.h>
+#   import <RelativeInterfaceMac/RelativeInterface.h>
+#   import <Former/Former.h>
+#endif

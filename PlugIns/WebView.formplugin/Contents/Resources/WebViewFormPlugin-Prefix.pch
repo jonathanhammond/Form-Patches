@@ -1,0 +1,13 @@
+//
+//  WebViewFormPlugin-Prefix.pch
+//  WebView
+//
+//  Created by Max Weisel on 7/1/15.
+//  Copyright (c) 2015 Google. All rights reserved.
+//
+
+#ifdef __OBJC__
+#   import <Foundation/Foundation.h>
+#   import <RelativeInterfaceMac/RelativeInterface.h>
+#   import <Former/Former.h>
+#endif
