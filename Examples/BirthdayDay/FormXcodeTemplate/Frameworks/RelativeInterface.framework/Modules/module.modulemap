@@ -1,0 +1,6 @@
+framework module RelativeInterface {
+  umbrella header "RelativeInterface.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+explicit module RelativeInterface.RIGestureRecognizerSubclass { 
+    header "RIGestureRecognizerSubclass.h" 
+    export *
+}

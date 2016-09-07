@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79625A5B1C3FC83A0042DEE9 /* WebViewPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79625A5A1C3FC83A0042DEE9 /* WebViewPerformPlugin.framework */; };
+		79D76BA61D773F6E00D541B5 /* jackbdayapp.form in Resources */ = {isa = PBXBuildFile; fileRef = 79D76BA51D773F6E00D541B5 /* jackbdayapp.form */; };
+		A04B28BC1C1C8A2200AFA7AA /* FormOSCPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B28BB1C1C8A2200AFA7AA /* FormOSCPerformPlugin.framework */; };
+		A04B28BD1C1C8A3500AFA7AA /* FormOSCPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04B28BB1C1C8A2200AFA7AA /* FormOSCPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04B28BF1C1C8ADE00AFA7AA /* PedometerPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B28BE1C1C8ADE00AFA7AA /* PedometerPerformPlugin.framework */; };
+		A04B28C11C1C8B3D00AFA7AA /* CubePerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B28C01C1C8B3D00AFA7AA /* CubePerformPlugin.framework */; };
+		A04B28C31C1C8B9900AFA7AA /* WebViewPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B28C21C1C8B9900AFA7AA /* WebViewPerformPlugin.framework */; };
+		A04B28C41C1C8BB200AFA7AA /* WebViewPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04B28C21C1C8B9900AFA7AA /* WebViewPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04B28C51C1C8BB200AFA7AA /* CubePerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04B28C01C1C8B3D00AFA7AA /* CubePerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04B28C61C1C8BB200AFA7AA /* PedometerPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04B28BE1C1C8ADE00AFA7AA /* PedometerPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04B28C81C1C8BF000AFA7AA /* PianoInstrumentPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B28C71C1C8BF000AFA7AA /* PianoInstrumentPerformPlugin.framework */; };
+		A04B28C91C1C8BFC00AFA7AA /* PianoInstrumentPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04B28C71C1C8BF000AFA7AA /* PianoInstrumentPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04B28CB1C1C8E5A00AFA7AA /* DeviceInfoPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B28CA1C1C8E5A00AFA7AA /* DeviceInfoPerformPlugin.framework */; };
+		A04B28CC1C1C8E7800AFA7AA /* DeviceInfoPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04B28CA1C1C8E5A00AFA7AA /* DeviceInfoPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04B28D21C1CB1C200AFA7AA /* Connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A04B28D11C1CB1C200AFA7AA /* Connect@2x.png */; };
+		A0B26C211C2002DF006D317F /* DeviceProximitySensorPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B26C201C2002DF006D317F /* DeviceProximitySensorPerformPlugin.framework */; };
+		A0B26C241C200383006D317F /* DeviceProximitySensorPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0B26C201C2002DF006D317F /* DeviceProximitySensorPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9ED63681BFE8E8E0056B56A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED63671BFE8E8E0056B56A /* main.m */; };
+		E9ED636B1BFE8E8E0056B56A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED636A1BFE8E8E0056B56A /* AppDelegate.m */; };
+		E9ED636E1BFE8E8E0056B56A /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED636D1BFE8E8E0056B56A /* ConnectViewController.m */; };
+		E9ED63701BFE8E8E0056B56A /* Jacks Birthday-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = E9ED636F1BFE8E8E0056B56A /* Jacks Birthday-Prefix.pch */; };
+		E9ED63721BFE8E8E0056B56A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63711BFE8E8E0056B56A /* Images.xcassets */; };
+		E9ED63771BFE8E8E0056B56A /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63761BFE8E8E0056B56A /* MaterialIcons-Regular.ttf */; };
+		E9ED63791BFE8E8E0056B56A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63781BFE8E8E0056B56A /* Roboto-Black.ttf */; };
+		E9ED637B1BFE8E8E0056B56A /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED637A1BFE8E8E0056B56A /* Roboto-BlackItalic.ttf */; };
+		E9ED637D1BFE8E8E0056B56A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED637C1BFE8E8E0056B56A /* Roboto-Bold.ttf */; };
+		E9ED637F1BFE8E8E0056B56A /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED637E1BFE8E8E0056B56A /* Roboto-BoldItalic.ttf */; };
+		E9ED63811BFE8E8E0056B56A /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63801BFE8E8E0056B56A /* Roboto-Italic.ttf */; };
+		E9ED63831BFE8E8E0056B56A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63821BFE8E8E0056B56A /* Roboto-Light.ttf */; };
+		E9ED63851BFE8E8E0056B56A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63841BFE8E8E0056B56A /* Roboto-LightItalic.ttf */; };
+		E9ED63871BFE8E8E0056B56A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63861BFE8E8E0056B56A /* Roboto-Medium.ttf */; };
+		E9ED63891BFE8E8E0056B56A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63881BFE8E8E0056B56A /* Roboto-MediumItalic.ttf */; };
+		E9ED638B1BFE8E8E0056B56A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED638A1BFE8E8E0056B56A /* Roboto-Regular.ttf */; };
+		E9ED638D1BFE8E8E0056B56A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED638C1BFE8E8E0056B56A /* Roboto-Thin.ttf */; };
+		E9ED638F1BFE8E8E0056B56A /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED638E1BFE8E8E0056B56A /* Roboto-ThinItalic.ttf */; };
+		E9ED63911BFE8E8E0056B56A /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63901BFE8E8E0056B56A /* RobotoCondensed-Bold.ttf */; };
+		E9ED63931BFE8E8E0056B56A /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63921BFE8E8E0056B56A /* RobotoCondensed-BoldItalic.ttf */; };
+		E9ED63951BFE8E8E0056B56A /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63941BFE8E8E0056B56A /* RobotoCondensed-Italic.ttf */; };
+		E9ED63971BFE8E8E0056B56A /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63961BFE8E8E0056B56A /* RobotoCondensed-Light.ttf */; };
+		E9ED63991BFE8E8E0056B56A /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63981BFE8E8E0056B56A /* RobotoCondensed-LightItalic.ttf */; };
+		E9ED639B1BFE8E8E0056B56A /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED639A1BFE8E8E0056B56A /* RobotoCondensed-Regular.ttf */; };
+		E9ED639E1BFE8E8E0056B56A /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ED639D1BFE8E8E0056B56A /* Performer.framework */; };
+		E9ED63A01BFE8E8E0056B56A /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ED639F1BFE8E8E0056B56A /* RelativeInterface.framework */; };
+		E9ED63A31BFE8E8E0056B56A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9ED63A11BFE8E8E0056B56A /* LaunchScreen.xib */; };
+		E9ED63B31BFE8F910056B56A /* Performer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9ED639D1BFE8E8E0056B56A /* Performer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E9ED63B41BFE8F910056B56A /* RelativeInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9ED639F1BFE8E8E0056B56A /* RelativeInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9ED63621BFE8E8E0056B56A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A0B26C241C200383006D317F /* DeviceProximitySensorPerformPlugin.framework in CopyFiles */,
+				A04B28CC1C1C8E7800AFA7AA /* DeviceInfoPerformPlugin.framework in CopyFiles */,
+				A04B28C91C1C8BFC00AFA7AA /* PianoInstrumentPerformPlugin.framework in CopyFiles */,
+				A04B28C41C1C8BB200AFA7AA /* WebViewPerformPlugin.framework in CopyFiles */,
+				A04B28C51C1C8BB200AFA7AA /* CubePerformPlugin.framework in CopyFiles */,
+				A04B28C61C1C8BB200AFA7AA /* PedometerPerformPlugin.framework in CopyFiles */,
+				A04B28BD1C1C8A3500AFA7AA /* FormOSCPerformPlugin.framework in CopyFiles */,
+				E9ED63B31BFE8F910056B56A /* Performer.framework in CopyFiles */,
+				E9ED63B41BFE8F910056B56A /* RelativeInterface.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79625A5A1C3FC83A0042DEE9 /* WebViewPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebViewPerformPlugin.framework; sourceTree = "<group>"; };
+		79D76BA51D773F6E00D541B5 /* jackbdayapp.form */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = jackbdayapp.form; sourceTree = "<group>"; };
+		A04B28BB1C1C8A2200AFA7AA /* FormOSCPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FormOSCPerformPlugin.framework; sourceTree = "<group>"; };
+		A04B28BE1C1C8ADE00AFA7AA /* PedometerPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PedometerPerformPlugin.framework; sourceTree = "<group>"; };
+		A04B28C01C1C8B3D00AFA7AA /* CubePerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CubePerformPlugin.framework; sourceTree = "<group>"; };
+		A04B28C21C1C8B9900AFA7AA /* WebViewPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebViewPerformPlugin.framework; sourceTree = "<group>"; };
+		A04B28C71C1C8BF000AFA7AA /* PianoInstrumentPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PianoInstrumentPerformPlugin.framework; sourceTree = "<group>"; };
+		A04B28CA1C1C8E5A00AFA7AA /* DeviceInfoPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeviceInfoPerformPlugin.framework; sourceTree = "<group>"; };
+		A04B28D11C1CB1C200AFA7AA /* Connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connect@2x.png"; sourceTree = "<group>"; };
+		A0B26C201C2002DF006D317F /* DeviceProximitySensorPerformPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeviceProximitySensorPerformPlugin.framework; sourceTree = "<group>"; };
+		E9ED63641BFE8E8E0056B56A /* Jacks Birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jacks Birthday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ED63671BFE8E8E0056B56A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9ED63691BFE8E8E0056B56A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9ED636A1BFE8E8E0056B56A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9ED636C1BFE8E8E0056B56A /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		E9ED636D1BFE8E8E0056B56A /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		E9ED636F1BFE8E8E0056B56A /* Jacks Birthday-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jacks Birthday-Prefix.pch"; sourceTree = "<group>"; };
+		E9ED63711BFE8E8E0056B56A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9ED63761BFE8E8E0056B56A /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		E9ED63781BFE8E8E0056B56A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		E9ED637A1BFE8E8E0056B56A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E9ED637C1BFE8E8E0056B56A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E9ED637E1BFE8E8E0056B56A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E9ED63801BFE8E8E0056B56A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		E9ED63821BFE8E8E0056B56A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E9ED63841BFE8E8E0056B56A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		E9ED63861BFE8E8E0056B56A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		E9ED63881BFE8E8E0056B56A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E9ED638A1BFE8E8E0056B56A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E9ED638C1BFE8E8E0056B56A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		E9ED638E1BFE8E8E0056B56A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E9ED63901BFE8E8E0056B56A /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		E9ED63921BFE8E8E0056B56A /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E9ED63941BFE8E8E0056B56A /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		E9ED63961BFE8E8E0056B56A /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		E9ED63981BFE8E8E0056B56A /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		E9ED639A1BFE8E8E0056B56A /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		E9ED639D1BFE8E8E0056B56A /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
+		E9ED639F1BFE8E8E0056B56A /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
+		E9ED63A21BFE8E8E0056B56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E9ED63A41BFE8E8E0056B56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9ED63601BFE8E8E0056B56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04B28C81C1C8BF000AFA7AA /* PianoInstrumentPerformPlugin.framework in Frameworks */,
+				A0B26C211C2002DF006D317F /* DeviceProximitySensorPerformPlugin.framework in Frameworks */,
+				A04B28CB1C1C8E5A00AFA7AA /* DeviceInfoPerformPlugin.framework in Frameworks */,
+				E9ED63A01BFE8E8E0056B56A /* RelativeInterface.framework in Frameworks */,
+				A04B28BC1C1C8A2200AFA7AA /* FormOSCPerformPlugin.framework in Frameworks */,
+				A04B28BF1C1C8ADE00AFA7AA /* PedometerPerformPlugin.framework in Frameworks */,
+				E9ED639E1BFE8E8E0056B56A /* Performer.framework in Frameworks */,
+				A04B28C11C1C8B3D00AFA7AA /* CubePerformPlugin.framework in Frameworks */,
+				A04B28C31C1C8B9900AFA7AA /* WebViewPerformPlugin.framework in Frameworks */,
+				79625A5B1C3FC83A0042DEE9 /* WebViewPerformPlugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9ED632E1BFE8E8C0056B56A = {
+			isa = PBXGroup;
+			children = (
+				79D76BA51D773F6E00D541B5 /* jackbdayapp.form */,
+				E9ED63651BFE8E8E0056B56A /* CustomPatchViewer */,
+				E9ED633A1BFE8E8C0056B56A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9ED633A1BFE8E8C0056B56A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED63641BFE8E8E0056B56A /* Jacks Birthday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9ED63651BFE8E8E0056B56A /* CustomPatchViewer */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED63691BFE8E8E0056B56A /* AppDelegate.h */,
+				E9ED636A1BFE8E8E0056B56A /* AppDelegate.m */,
+				E9ED636C1BFE8E8E0056B56A /* ConnectViewController.h */,
+				E9ED636D1BFE8E8E0056B56A /* ConnectViewController.m */,
+				E9ED63711BFE8E8E0056B56A /* Images.xcassets */,
+				A04B28D11C1CB1C200AFA7AA /* Connect@2x.png */,
+				E9ED63A11BFE8E8E0056B56A /* LaunchScreen.xib */,
+				E9ED63A41BFE8E8E0056B56A /* Info.plist */,
+				E9ED63751BFE8E8E0056B56A /* Fonts */,
+				E9ED639C1BFE8E8E0056B56A /* Frameworks */,
+				E9ED63661BFE8E8E0056B56A /* Supporting Files */,
+			);
+			path = CustomPatchViewer;
+			sourceTree = "<group>";
+		};
+		E9ED63661BFE8E8E0056B56A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED63671BFE8E8E0056B56A /* main.m */,
+				E9ED636F1BFE8E8E0056B56A /* Jacks Birthday-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9ED63751BFE8E8E0056B56A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED63761BFE8E8E0056B56A /* MaterialIcons-Regular.ttf */,
+				E9ED63781BFE8E8E0056B56A /* Roboto-Black.ttf */,
+				E9ED637A1BFE8E8E0056B56A /* Roboto-BlackItalic.ttf */,
+				E9ED637C1BFE8E8E0056B56A /* Roboto-Bold.ttf */,
+				E9ED637E1BFE8E8E0056B56A /* Roboto-BoldItalic.ttf */,
+				E9ED63801BFE8E8E0056B56A /* Roboto-Italic.ttf */,
+				E9ED63821BFE8E8E0056B56A /* Roboto-Light.ttf */,
+				E9ED63841BFE8E8E0056B56A /* Roboto-LightItalic.ttf */,
+				E9ED63861BFE8E8E0056B56A /* Roboto-Medium.ttf */,
+				E9ED63881BFE8E8E0056B56A /* Roboto-MediumItalic.ttf */,
+				E9ED638A1BFE8E8E0056B56A /* Roboto-Regular.ttf */,
+				E9ED638C1BFE8E8E0056B56A /* Roboto-Thin.ttf */,
+				E9ED638E1BFE8E8E0056B56A /* Roboto-ThinItalic.ttf */,
+				E9ED63901BFE8E8E0056B56A /* RobotoCondensed-Bold.ttf */,
+				E9ED63921BFE8E8E0056B56A /* RobotoCondensed-BoldItalic.ttf */,
+				E9ED63941BFE8E8E0056B56A /* RobotoCondensed-Italic.ttf */,
+				E9ED63961BFE8E8E0056B56A /* RobotoCondensed-Light.ttf */,
+				E9ED63981BFE8E8E0056B56A /* RobotoCondensed-LightItalic.ttf */,
+				E9ED639A1BFE8E8E0056B56A /* RobotoCondensed-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		E9ED639C1BFE8E8E0056B56A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79625A5A1C3FC83A0042DEE9 /* WebViewPerformPlugin.framework */,
+				A0B26C201C2002DF006D317F /* DeviceProximitySensorPerformPlugin.framework */,
+				A04B28CA1C1C8E5A00AFA7AA /* DeviceInfoPerformPlugin.framework */,
+				A04B28C71C1C8BF000AFA7AA /* PianoInstrumentPerformPlugin.framework */,
+				A04B28C21C1C8B9900AFA7AA /* WebViewPerformPlugin.framework */,
+				A04B28C01C1C8B3D00AFA7AA /* CubePerformPlugin.framework */,
+				A04B28BE1C1C8ADE00AFA7AA /* PedometerPerformPlugin.framework */,
+				A04B28BB1C1C8A2200AFA7AA /* FormOSCPerformPlugin.framework */,
+				E9ED639D1BFE8E8E0056B56A /* Performer.framework */,
+				E9ED639F1BFE8E8E0056B56A /* RelativeInterface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9ED63631BFE8E8E0056B56A /* Jacks Birthday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ED63B01BFE8E8E0056B56A /* Build configuration list for PBXNativeTarget "Jacks Birthday" */;
+			buildPhases = (
+				E9ED635F1BFE8E8E0056B56A /* Sources */,
+				E9ED63601BFE8E8E0056B56A /* Frameworks */,
+				E9ED63611BFE8E8E0056B56A /* Resources */,
+				E9ED63621BFE8E8E0056B56A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jacks Birthday";
+			productName = CustomPatchViewer;
+			productReference = E9ED63641BFE8E8E0056B56A /* Jacks Birthday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9ED632F1BFE8E8C0056B56A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jonathan Hammond";
+				TargetAttributes = {
+					E9ED63631BFE8E8E0056B56A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KS8AT8QB64;
+					};
+				};
+			};
+			buildConfigurationList = E9ED63321BFE8E8C0056B56A /* Build configuration list for PBXProject "Jacks Birthday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9ED632E1BFE8E8C0056B56A;
+			productRefGroup = E9ED633A1BFE8E8C0056B56A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9ED63631BFE8E8E0056B56A /* Jacks Birthday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9ED63611BFE8E8E0056B56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ED637D1BFE8E8E0056B56A /* Roboto-Bold.ttf in Resources */,
+				E9ED63851BFE8E8E0056B56A /* Roboto-LightItalic.ttf in Resources */,
+				E9ED63951BFE8E8E0056B56A /* RobotoCondensed-Italic.ttf in Resources */,
+				E9ED63931BFE8E8E0056B56A /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				E9ED63891BFE8E8E0056B56A /* Roboto-MediumItalic.ttf in Resources */,
+				79D76BA61D773F6E00D541B5 /* jackbdayapp.form in Resources */,
+				E9ED63811BFE8E8E0056B56A /* Roboto-Italic.ttf in Resources */,
+				E9ED63831BFE8E8E0056B56A /* Roboto-Light.ttf in Resources */,
+				A04B28D21C1CB1C200AFA7AA /* Connect@2x.png in Resources */,
+				E9ED63701BFE8E8E0056B56A /* Jacks Birthday-Prefix.pch in Resources */,
+				E9ED637F1BFE8E8E0056B56A /* Roboto-BoldItalic.ttf in Resources */,
+				E9ED637B1BFE8E8E0056B56A /* Roboto-BlackItalic.ttf in Resources */,
+				E9ED638D1BFE8E8E0056B56A /* Roboto-Thin.ttf in Resources */,
+				E9ED638B1BFE8E8E0056B56A /* Roboto-Regular.ttf in Resources */,
+				E9ED63991BFE8E8E0056B56A /* RobotoCondensed-LightItalic.ttf in Resources */,
+				E9ED63721BFE8E8E0056B56A /* Images.xcassets in Resources */,
+				E9ED639B1BFE8E8E0056B56A /* RobotoCondensed-Regular.ttf in Resources */,
+				E9ED63A31BFE8E8E0056B56A /* LaunchScreen.xib in Resources */,
+				E9ED63871BFE8E8E0056B56A /* Roboto-Medium.ttf in Resources */,
+				E9ED63971BFE8E8E0056B56A /* RobotoCondensed-Light.ttf in Resources */,
+				E9ED638F1BFE8E8E0056B56A /* Roboto-ThinItalic.ttf in Resources */,
+				E9ED63911BFE8E8E0056B56A /* RobotoCondensed-Bold.ttf in Resources */,
+				E9ED63791BFE8E8E0056B56A /* Roboto-Black.ttf in Resources */,
+				E9ED63771BFE8E8E0056B56A /* MaterialIcons-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9ED635F1BFE8E8E0056B56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ED636B1BFE8E8E0056B56A /* AppDelegate.m in Sources */,
+				E9ED636E1BFE8E8E0056B56A /* ConnectViewController.m in Sources */,
+				E9ED63681BFE8E8E0056B56A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9ED63A11BFE8E8E0056B56A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9ED63A21BFE8E8E0056B56A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9ED63A51BFE8E8E0056B56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		E9ED63A61BFE8E8E0056B56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		E9ED63B11BFE8E8E0056B56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KS8AT8QB64;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/CustomPatchViewer",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPatchViewer/Jacks Birthday-Prefix.pch";
+				INFOPLIST_FILE = CustomPatchViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammond.jackbday;
+				PRODUCT_NAME = "Jacks Birthday";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9ED63B21BFE8E8E0056B56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KS8AT8QB64;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/CustomPatchViewer",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPatchViewer/Jacks Birthday-Prefix.pch";
+				INFOPLIST_FILE = CustomPatchViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammond.jackbday;
+				PRODUCT_NAME = "Jacks Birthday";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9ED63321BFE8E8C0056B56A /* Build configuration list for PBXProject "Jacks Birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED63A51BFE8E8E0056B56A /* Debug */,
+				E9ED63A61BFE8E8E0056B56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ED63B01BFE8E8E0056B56A /* Build configuration list for PBXNativeTarget "Jacks Birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED63B11BFE8E8E0056B56A /* Debug */,
+				E9ED63B21BFE8E8E0056B56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9ED632F1BFE8E8C0056B56A /* Project object */;
+}

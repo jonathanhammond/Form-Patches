@@ -1,0 +1,6 @@
+framework module Performer {
+  umbrella header "Performer.h"
+
+  export *
+  module * { export * }
+}
